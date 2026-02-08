@@ -1,16 +1,75 @@
-# React + Vite
+# Customer Segmentation UI (Scrollable Cards)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React + Tailwind CSS** based UI project that implements a scrollable, card-driven **customer segmentation section** inspired by digital banking and fintech dashboards.
 
-Currently, two official plugins are available:
+This project focuses on **frontend UI development**, clean layout composition, and breaking down real-world designs into reusable React components.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- Horizontally scrollable image cards
+- Fintech-style modern UI
+- Modular and reusable React components
+- Tailwind CSS utility-first styling
+- Image overlays with text, tags, and action arrows
+- Clean component and folder structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🧠 UI Description
 
-## Expanding the ESLint configuration
+This UI represents **Prospective Customer Segmentation** for a digital banking platform.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The section includes:
+- A left content area with heading, description, and action icon
+- A right scrollable card section with **5 customer cards**
+
+### Customer Segments Included:
+1. **Satisfied** – Prime customers satisfied with current products  
+2. **Underserved** – Customers with access but low satisfaction  
+3. **Underbanked** – Limited access to banking services  
+4. **Emerging** – Digital-first users with growth potential  
+5. **Opportunity** – High engagement but untapped value  
+
+Each card contains:
+- Background image
+- Card index number
+- Short description
+- Status tag with arrow icon
+
+## 🛠️ Tech Stack
+
+- **React**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **Vite**
+- **Remix Icon**
+
+## 📁 Project Structure
+
+ui-project/
+├── src/
+│ ├── assets/
+│ ├── Components/
+│ │ ├── Section1/
+│ │ │ ├── Section1.jsx
+│ │ │ ├── Navbar.jsx
+│ │ │ ├── Page1Cont.jsx
+│ │ │ ├── LeftContent.jsx
+│ │ │ ├── LeftHero.jsx
+│ │ │ ├── LeftIcon.jsx
+│ │ │ ├── RightContent.jsx
+│ │ │ ├── RightCard.jsx
+│ │ │ └── RightCardContent.jsx
+│ │ ├── Section2/
+│ │ │ └── Section2.jsx
+│ ├── App.jsx
+│ ├── index.css
+│ └── main.jsx
+├── index.html
+├──package-lock.json
+├── package.json
+├── README.md
+└── vite.config.js
+
+## 👩‍💻 Author
+
+**Iqra Khatoon**  
+Aspiring Full-Stack Web Developer (MERN)  
