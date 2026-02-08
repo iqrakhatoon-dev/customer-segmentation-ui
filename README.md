@@ -44,6 +44,7 @@ Each card contains:
 
 ## 📁 Project Structure
 
+```text
 ui-project
 |
 |-- src
@@ -77,6 +78,7 @@ ui-project
 |-- package.json
 |-- README.md
 |-- vite.config.js
+```
 
 ## 👩‍💻 Author
 
