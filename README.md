@@ -44,7 +44,7 @@ Each card contains:
 
 ## 📁 Project Structure
 
-ui-project/
+```ui-project/
 ├── src/
 │ ├── assets/
 │ ├── Components/
@@ -67,7 +67,7 @@ ui-project/
 ├──package-lock.json
 ├── package.json
 ├── README.md
-└── vite.config.js
+└── vite.config.js```
 
 ## 👩‍💻 Author
 
