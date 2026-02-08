@@ -44,30 +44,39 @@ Each card contains:
 
 ## 📁 Project Structure
 
-ui-project/
-├── src/
-│   ├── assets/
-│   ├── Components/
-│   │   ├── Section1/
-│   │   │   ├── Section1.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── Page1Cont.jsx
-│   │   │   ├── LeftContent.jsx
-│   │   │   ├── LeftHero.jsx
-│   │   │   ├── LeftIcon.jsx
-│   │   │   ├── RightContent.jsx
-│   │   │   ├── RightCard.jsx
-│   │   │   └── RightCardContent.jsx
-│   │   ├── Section2/
-│   │   │   └── Section2.jsx
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-├── index.html
-├── package-lock.json
-├── package.json
-├── README.md
-└── vite.config.js
+ui-project
+|
+|-- src
+|   |
+|   |-- assets
+|   |
+|   |-- Components
+|   |   |
+|   |   |-- Section1
+|   |   |   |
+|   |   |   |-- Section1.jsx
+|   |   |   |-- Navbar.jsx
+|   |   |   |-- Page1Cont.jsx
+|   |   |   |-- LeftContent.jsx
+|   |   |   |-- LeftHero.jsx
+|   |   |   |-- LeftIcon.jsx
+|   |   |   |-- RightContent.jsx
+|   |   |   |-- RightCard.jsx
+|   |   |   |-- RightCardContent.jsx
+|   |   |
+|   |   |-- Section2
+|   |       |
+|   |       |-- Section2.jsx
+|   |
+|   |-- App.jsx
+|   |-- index.css
+|   |-- main.jsx
+|
+|-- index.html
+|-- package-lock.json
+|-- package.json
+|-- README.md
+|-- vite.config.js
 
 ## 👩‍💻 Author
 
