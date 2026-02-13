@@ -42,6 +42,11 @@ Each card contains:
 - **Vite**
 - **Remix Icon**
 
+ ## 📸 UI Preview
+
+ <img width="1899" height="908" alt="Screenshot 2026-02-06 230916" src="https://github.com/user-attachments/assets/0500201b-bac8-4ca6-afb5-31dba29d8d80" />
+
+
 ## 📁 Project Structure
 
 ```text
